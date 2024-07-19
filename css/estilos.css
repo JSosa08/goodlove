@@ -837,6 +837,9 @@ img {
     .copyright p {
 		text-align: center;
 	}
+    .mapa iframe{
+        width: 380px;
+    }
     /* ====== NOSOTROS.HTML ====== */
     .nosotros-img img{
         width: 150px;
