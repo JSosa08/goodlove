@@ -1,0 +1,26 @@
+/* css grid = columnas dinamicas segun el hancho del dispositivo, aqui definimos colummnas */
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.grid-item-1 {
+    width: 230px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.titulo-1 {
+    text-align: center;
+    color: #444A47;
+    font-size: 25px;
+}
+
+.grid-item-1:hover {
+    filter: opacity(0.5);
+}

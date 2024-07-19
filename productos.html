@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- ICONO DE WEB-->
+    <link rel="shortcut icon" href="img/icono.ico" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOD LOVE | Productos</title>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/all.js"></script>
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <!--  HEADER MENU -->
+        <div class="header">
+            <div class="contenedor">
+                <div class="header-menu">
+                    <div class="header-menu-logo">
+                        <a href="#"><img src="img/LOGO2.png" alt=""></a>
+                    </div>
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="clientes.html">Clientes</a></li>
+                            <li><a href="" class="inactive">Productos</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="#contactos">Contacto</a></li>
+                        </ul>
+                        <div class="div-icon-cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i></button>
+                                <span>0</span>
+                            </a>
+                        </div>
+                        <div class="icon-menu">
+                            <button type="button"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <!-- HEADER MENU MOVIL -->
+        <div class="header-menu-movil">
+            <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="" class="inactive">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="#contactos">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="main-productos">
+            <div class="row jc-c"><h1>PRODUCTOS</h1></div>
+            <div class="filtros row jc-c">
+                <button class="filtro mayuscula" data-categoria="todos">Todos</button>
+                <button class="filtro mayuscula" data-categoria="Flores">Flores</button>
+                <button class="filtro mayuscula" data-categoria="Peluches">Peluches</button>
+                <button class="filtro mayuscula" data-categoria="Cuadros">Cuadros</button>
+                <button class="filtro mayuscula" data-categoria="Complementos">Complementos</button>
+                <button class="filtro mayuscula" data-categoria="Ocaciones">Ocaciones</button>
+                <button class="filtro mayuscula" data-categoria="Sorpresa">Paneles</button>
+            </div>
+            <div class="productos-productos row jc-c">
+                <!-- Flores 01 -->
+                <div class="productos-producto" data-categoria="Flores">
+                    <img src="img/ramoderosasygirasoles.jpg">
+                    <p>Flores Naturales</p>
+                    <button class="ver-detalles" data-id="F-01">Ver detalles</button>
+                </div>
+
+                <!-- Peluches 01 -->
+                <div class="productos-producto" data-categoria="Peluches">
+                    <img src="img/peluches/bowie-perezoso.png">
+                    <p>Bowie Peresoso</p>
+                    <button class="ver-detalles" data-id="P-01">Ver detalles</button>
+                </div>
+
+                <!-- Cuadros 01 -->
+                <div class="productos-producto" data-categoria="Cuadros">
+                    <img src="img/cuadros/1.jpg">
+                    <p>Cuadro Columpio</p>
+                    <button class="ver-detalles" data-id="Cu-01">Ver detalles</button>
+                </div>
+
+                <!-- Complementos 01 -->
+                <div class="productos-producto" data-categoria="Complementos">
+                    <img src="img/complemento/1.jpg">
+                    <p>Llaveros Personalizados</p>
+                    <button class="ver-detalles" data-id="Com-01">Ver detalles</button>
+                </div>
+
+                <!-- Ocaciones 01 -->
+                <div class="productos-producto" data-categoria="Ocaciones">
+                    <img src="img/ocaciones/1.jpg">
+                    <p>Osito Mariachi</p>
+                    <button class="ver-detalles" data-id="Oca-01">Ver detalles</button>
+                </div>
+
+                <!-- Sorpresa 01 -->
+                <div class="productos-producto" data-categoria="Sorpresa">
+                    <img src="img/paneles/1.jpg">
+                    <p>Cumpleaños Rey</p>
+                    <button class="ver-detalles" data-id="pan-01">Ver detalles</button>
+                </div>
+
+        <!-- GRUPO 02 -->
+                
+                <!-- Flores 02 -->
+                <div class="productos-producto" data-categoria="Flores">
+                    <img src="img/ramodeflores.jpg">
+                    <p>Rosas Naturales</p>
+                    <button class="ver-detalles" data-id="F-02">Ver detalles</button>
+                </div>
+
+                <!-- Peluches 02 -->
+                <div class="productos-producto" data-categoria="Peluches">
+                    <img src="img/peluches/1.jpg">
+                    <p>Box Stick</p>
+                    <button class="ver-detalles" data-id="P-02">Ver detalles</button>
+                </div>
+
+                <!-- Cuadros 02 -->
+                <div class="productos-producto" data-categoria="Cuadros">
+                    <img src="img/cuadros/2.jpg">
+                    <p>Cuadro Collage</p>
+                    <button class="ver-detalles" data-id="Cu-02">Ver detalles</button>
+                </div>
+
+                <!-- Complementos 02 -->
+                <div class="productos-producto" data-categoria="Complementos">
+                    <img src="img/complemento/2.jpg">
+                    <p>Tazas Personalizada</p>
+                    <button class="ver-detalles" data-id="Com-02">Ver detalles</button>
+                </div>
+
+                <!-- Ocaciones 02 -->
+                <div class="productos-producto" data-categoria="Ocaciones">
+                    <img src="img/ocaciones/4.jpg">
+                    <p>Picnic</p>
+                    <button class="ver-detalles" data-id="Oca-02">Ver detalles</button>
+                </div>
+
+                <!-- Sorpresa 02 -->
+                <div class="productos-producto" data-categoria="Sorpresa">
+                    <img src="img/paneles/2.jpg">
+                    <p>Cumpleaños Goku</p>
+                    <button class="ver-detalles" data-id="pan-02">Ver detalles</button>
+                </div>
+
+        <!-- GRUPO 03 -->
+
+                <!-- Flores 03 -->
+                <div class="productos-producto" data-categoria="Flores">
+                    <img src="img/rosas04.jpg">
+                    <p>Duo Perzonalizado</p>
+                    <button class="ver-detalles" data-id="F-03">Ver detalles</button>
+                </div>
+
+                <!-- Peluches 03 -->
+                <div class="productos-producto" data-categoria="Peluches">
+                    <img src="img/peluches/2.jpg">
+                    <p>Box Corazón</p>
+                    <button class="ver-detalles" data-id="P-03">Ver detalles</button>
+                </div>
+
+                <!-- Cuadros 03 -->
+                <div class="productos-producto" data-categoria="Cuadros">
+                    <img src="img/cuadros/7.jpg">
+                    <p>Cuadro Dado</p>
+                    <button class="ver-detalles" data-id="Cu-03">Ver detalles</button>
+                </div>
+
+                <!-- Complementos 03 -->
+                <div class="productos-producto" data-categoria="Complementos">
+                    <img src="img/pulseraschipoderosas.jpg">
+                    <p>Pulcera Personalizada</p>
+                    <button class="ver-detalles" data-id="Com-03">Ver detalles</button>
+                </div>
+
+                <!-- Ocaciones 03 -->
+                <div class="productos-producto" data-categoria="Ocaciones">
+                    <img src="img/ocaciones/5.jpg">
+                    <p>Velada Romántica</p>
+                    <button class="ver-detalles" data-id="Oca-03">Ver detalles</button>
+                </div>
+                
+                <!-- Sorpresa 03 -->
+                <div class="productos-producto" data-categoria="Sorpresa">
+                    <img src="img/paneles/3.jpg">
+                    <p>Bodas de Oro</p>
+                    <button class="ver-detalles" data-id="pan-03">Ver detalles</button>
+                </div>
+
+        <!-- GRUPO 04 -->
+                
+                <!-- Flores 04 -->
+                <div class="productos-producto" data-categoria="Flores">
+                    <img src="img/rosas03.jpg">
+                    <p>Rosa individual</p>
+                    <button class="ver-detalles" data-id="F-04">Ver detalles</button>
+                </div>
+
+                <!-- Peluches 04 -->
+                <div class="productos-producto" data-categoria="Peluches">
+                    <img src="img/peluches/4.jpg">
+                    <p>Box Mamá</p>
+                    <button class="ver-detalles" data-id="P-04">Ver detalles</button>
+                </div>
+
+                <!-- Cuadros 04 -->
+                <div class="productos-producto" data-categoria="Cuadros">
+                    <img src="img/cuadros/5.jpg">
+                    <p>Collage Corazón</p>
+                    <button class="ver-detalles" data-id="Cu-04">Ver detalles</button>
+                </div>
+
+                <!-- Complementos 04 -->
+                <div class="productos-producto" data-categoria="Complementos">
+                    <img src="img/complemento/3.jpg">
+                    <p>Recuerdo Personalizado</p>
+                    <button class="ver-detalles" data-id="Com-04">Ver detalles</button>
+                </div>
+
+                <!-- Ocaciones 04 -->
+                <div class="productos-producto" data-categoria="Ocaciones">
+                    <img src="img/ocaciones/9.jpg">
+                    <p>Osito Sorpresa</p>
+                    <button class="ver-detalles" data-id="Oca-04">Ver detalles</button>
+                </div>
+
+                <!-- Sorpresa 04 -->
+                <div class="productos-producto" data-categoria="Sorpresa">
+                    <img src="img/paneles/8.jpg">
+                    <p>Quinceañero</p>
+                    <button class="ver-detalles" data-id="pan-04">Ver detalles</button>
+                </div>
+
+        <!-- GRUPO 05 -->
+                
+                <!-- Flores 05 -->
+                <div class="productos-producto" data-categoria="Flores">
+                    <img src="img/rosaseternas.jpg">
+                    <p>Rosas Eternas</p>
+                    <button class="ver-detalles" data-id="F-05">Ver detalles</button>
+                </div>
+
+                <!-- Peluches 05 -->
+                <div class="productos-producto" data-categoria="Peluches">
+                    <img src="img/peluches/6.jpg">
+                    <p>Box Cumpleaños</p>
+                    <button class="ver-detalles" data-id="P-05">Ver detalles</button>
+                </div>
+
+                <!-- Cuadros 05 -->
+                <div class="productos-producto" data-categoria="Cuadros">
+                    <img src="img/cuadros/6.jpg">
+                    <p>Cuadro Calendario</p>
+                    <button class="ver-detalles" data-id="Cu-05">Ver detalles</button>
+                </div>
+
+                <!-- Complementos 05 -->
+                <div class="productos-producto" data-categoria="Complementos">
+                    <img src="img/complemento/7.jpg">
+                    <p>Lapicero Personalizado</p>
+                    <button class="ver-detalles" data-id="Com-05">Ver detalles</button>
+                </div>
+
+                <!-- Ocaciones 05 -->
+                <div class="productos-producto" data-categoria="Ocaciones">
+                    <img src="img/ocaciones/12.jpg">
+                    <p>Osito Cumpleañero</p>
+                    <button class="ver-detalles" data-id="Oca-05">Ver detalles</button>
+                </div>
+
+                <!-- Sorpresa 05 -->
+                <div class="productos-producto" data-categoria="Sorpresa">
+                    <img src="img/paneles/11.jpg">
+                    <p>Fiesta Navideña</p>
+                    <button class="ver-detalles" data-id="pan-05">Ver detalles</button>
+                </div>
+
+        <!-- GRUPO 06 -->
+
+                <!-- Flores 06 -->
+                <div class="productos-producto" data-categoria="Flores">
+                    <img src="img/rosas05.jpg">
+                    <p>Arreglo de rosas</p>
+                    <button class="ver-detalles" data-id="F-06">Ver detalles</button>
+                </div>
+
+                <!-- Peluches 06 -->
+                <div class="productos-producto" data-categoria="Peluches">
+                    <img src="img/peluches/7.jpg">
+                    <p>Box Aniversario</p>
+                    <button class="ver-detalles" data-id="P-06">Ver detalles</button>
+                </div>
+
+                <!-- Cuadros 06 -->
+                <div class="productos-producto" data-categoria="Cuadros">
+                    <img src="img/cuadros/8.jpg">
+                    <p>Año nuevo</p>
+                    <button class="ver-detalles" data-id="Cu-06">Ver detalles</button>
+                </div>
+
+                <!-- Complementos 06 -->
+                <div class="productos-producto" data-categoria="Complementos">
+                    <img src="img/complemento/8.jpg">
+                    <p>Tomatodos</p>
+                    <button class="ver-detalles" data-id="Com-06">Ver detalles</button>
+                </div>
+
+                <!-- Ocaciones 06 -->
+                <div class="productos-producto" data-categoria="Ocaciones">
+                    <img src="img/ocaciones/10.jpg">
+                    <p>Osito Sorpresa</p>
+                    <button class="ver-detalles" data-id="Oca-06">Ver detalles</button>
+                </div>
+
+                <!-- Sorpresa 06 -->
+                <div class="productos-producto" data-categoria="Sorpresa">
+                    <img src="img/paneles/5.jpg">
+                    <p>Fiesta de Graduación</p>
+                    <button class="ver-detalles" data-id="pan-06">Ver detalles</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-contenido">
+            <div class="row jc-e"><span class="cerrar">&times;</span></div>
+            <div class="row jc-c">
+                <img id="modal-img" src="" alt="Producto" class="modal-img">
+            </div>
+            <div class="modal-textos">
+                <h2 id="modal-titulo"></h2>
+                <p id="modal-descripcion"></p>
+                <p id="modal-precio" class="precio-mt"></p>
+                <p id="modal-colores"></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <footer>
+        <div  class="footer">
+            <div class="contenedor contenedor-footer" id="contactos">
+                <div class="menu-footer">
+                    <div class="contactos">
+                        <p class="titulo-footer">Información de Contacto</p>
+                        <ul>
+                            <li>
+                                <a href="https://maps.app.goo.gl/sPCwX3QhQ8MZ8Q1F8" target="_blank" class="linkss">Dirección: Calle Cristóbal Colón 103, Parachique, Peru</a>
+                            </li>
+                            <li><a href="tel:+51942193256" target="_blank" class="linkss">Teléfono: 942 193 256</a></li>
+                            <li><a href="mailto:ruizantoncristhy17@gmail.com" target="_blank" class="linkss">EmaiL: ruizantoncristhy17@gmail.com</a></li>
+                        </ul>
+                        <div class="iconos-redes">
+                            <span class="facebook">
+                                <a href="https://www.facebook.com/Detallesgoodlove" target="_blank" class="redesbo"> <i class="fa-brands fa-facebook"></i> </a>
+                            </span>
+                            <span class="tiktok">
+                                <a href="https://www.tiktok.com/@goodlove.detalles?is_from_webapp=1&sender_device=pc" target="_blank" class="redesbo"> <i class="fab fa-tiktok"></i> </a>
+                            </span>
+                            <span class="instagram">
+                                <a href="https://www.instagram.com/goodlove.detalles?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="redesbo"> <i class="fa-brands fa-instagram"></i> </a>
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class="informacion">
+                        <p class="titulo-footer">Información</p>
+                        <ul>
+                            <li><a href="">Información legal</a></li>
+                            <li><a href="">Politicas de Privacidad</a></li>
+                            <li><a href="">Términos y condiciones</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="cuenta">
+                        <p class="titulo-footer">Navegación</p>
+    
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="clientes.html">Clientes</a></li>
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </div>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.4125386699396!2d-80.86276703045102!3d-5.763381699638694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90497de2db563417%3A0x5fd5b9d0ac31277e!2sPi%C3%B1ateria%20y%20detalles%20personalizados%3A%20Good%20Love!5e0!3m2!1ses-419!2spe!4v1721353790488!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+    
+                <div class="copyright">
+                    <p>
+                        Desarrollado por GOOD LOVE | DETALLES PERSONALIZADOS &copy; 2024
+                    </p>
+                    <img src="img/pagos.png" alt="Pagos">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="https://wa.me/51942193256" target="blank" class="whatsapp"> <i class="fa-brands fa-whatsapp"></i></a>
+    
+    <!-- Mi Script -->
+    <script src="js/app.js"></script>
+</body>
+</html>
